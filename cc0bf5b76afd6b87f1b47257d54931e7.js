@@ -1,0 +1,2 @@
+var LeftNavFlyout={init:function(t,a,n,o){$("body").addClass("js");var i=($(t),$(a)),l=$(n);i.click(function(){return i.toggleClass(o),l.toggleClass(o),!1})}};$(document).ready(function(){LeftNavFlyout.init("#navigation-left-nav-flyout",".navigation-left-nav-flyout-toggle","#wrap","active")});
+;

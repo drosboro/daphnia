@@ -1,0 +1,104 @@
+<!doctype html>
+
+<!-- 
+Rock Hammer by Andy Clarke
+Version: 0.1
+URL: http://stuffandnonsense.co.uk/projects/rock-hammer/
+Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+-->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+<title>Daphnia Simulation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- For all browsers -->
+<link rel='stylesheet' href='css/rock-hammer.css'>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src='js/vendor/selectivizr-min.js'></script>
+<link rel='stylesheet' href='css/lte-ie8.css'>
+<![endif]-->
+
+<!-- JavaScript -->
+<script src='js/vendor/modernizr-2.6.2-min.js'></script>
+
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="shortcut icon" href="img/favicon.png">
+<!-- <link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png"> -->
+<!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon-72x72-precomposed.png"> -->
+<!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon-114x114-precomposed.png"> -->
+<!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/h/apple-touch-icon-144x144-precomposed.png"> -->
+<!--iOS -->
+<!-- <meta name="apple-mobile-web-app-title" content="Rock Hammer"> -->
+<!-- <meta name="viewport" content="initial-scale=1.0"> (Use if apple-mobile-web-app-capable below is set to yes) -->
+<!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+<!-- <meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+<!-- Startup images -->
+<!-- <link rel="apple-touch-startup-image" href="img/startup/startup-320x460.png" media="screen and (max-device-width:320px)"> -->
+<!-- <link rel="apple-touch-startup-image" href="img/startup/startup-640x920.png" media="(max-device-width:480px) and (-webkit-min-device-pixel-ratio:2)"> -->
+<!-- <link rel="apple-touch-startup-image" href="img/startup/startup-640x1096.png" media="(max-device-width:548px) and (-webkit-min-device-pixel-ratio:2)"> -->
+<!-- <link rel="apple-touch-startup-image" sizes="1024x748" href="img/startup/startup-1024x748.png" media="screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape)"> -->
+<!-- <link rel="apple-touch-startup-image" sizes="768x1004" href="img/startup/startup-768x1004.png" media="screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait)"> -->
+<!-- Windows 8 / RT -->
+<meta name="msapplication-TileImage" content="img/h/apple-touch-icon-144x144-precomposed.png">
+<meta name="msapplication-TileColor" content="#000">
+</head>
+
+<body class="samples" id="daphnia">
+
+<div class="container">
+
+<section class="l-panel">
+
+<div class="hero-unit">
+<div class="centered">
+  <h1>Daphnia Simulation</h1>
+  <div class="daphnia"><div class="heart" id="heart_sprite">&nbsp;</div></div>
+  <label><input type="checkbox" id="experimental" /> Experimental Group</label>
+  <p class="secondary"><a href="#" class="btn btn-large" id="trigger">Start Simulation</a></p>
+</div>
+<input id="mean" type="hidden" value="180" />
+<input id="stdev" type="hidden" value="12" />
+</div>
+
+</section><!-- section -->
+
+
+<!-- Final ============================== -->
+
+<footer role="contentinfo" class="donthatetimvandamme">
+<small>Daphnia Simulation by <a href="http://daverosborough.com">Dave Rosborough</a>.  All Rights Reserved.</small> 
+</footer>
+</div><!-- container -->
+
+<!-- Load libraries and plugins -->
+<script src='js/vendor/jquery-1.8.3-min.js'></script>
+<script src='js/vendor/jquery/jquery.scrollTo.min.js'></script>
+<script src='js/vendor/jquery.spritely.js'></script>
+<script src='js/vendor/bootstrap-min.js'></script>
+
+<!-- Functionality only used by Rock Hammer -->
+<script src='js/navigation-manager.js'></script>
+
+<!-- Remove any navigation patterns below that arent used -->
+<!-- // @javascript nav-toggle -->
+<script src='js/nav-patterns/left-nav-flyout.js'></script>
+<script src='js/nav-patterns/responsive-nav.min.js'></script>
+
+<!-- Load configuration and initialise JavaScripts. 
+	 Look in config.js to see how to turn items on/off -->
+<script src='js/config.js'></script>
+<script src='js/main.js'></script>
+
+</body>
+</html>
